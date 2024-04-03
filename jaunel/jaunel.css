@@ -1,0 +1,150 @@
+/*
+* {
+  box-sizing: border-box;
+}
+
+menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+#aboutMe{
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+#storyBoard{
+  max-width: 50%;
+  right:
+  padding: 0 20px;
+  background-color: red;
+  align-content: center;
+  height: auto;
+  max-height:60%;
+  position:absolute;
+}
+
+#funFact{
+  background-color: #e5e5e5;
+  position: absolute;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: 
+  .menu, .main, .right {
+    width: 100%;
+  }
+}*/
+
+
+html {
+  max-width: 100%;
+  height:auto;
+  overflow: scroll;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #F5FBEF;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #503D42;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #748B75;
+  color: black;
+  font-weight: 900;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #84C318;
+  color: #1A181B;
+}
+
+#topContent{
+  border: 5px solid blue;
+  position:relative;
+  height: 700px;
+}
+
+#Banner{
+  border: 5px solid red;
+  position: absolute;
+  height: 500px;
+  width:68.5%;
+}
+#MainContent{
+  border: 5px solid limegreen;
+  position: relative;
+  top: 10%;
+}
+
+#aboutMe{
+  border: 5px solid purple;
+  width:50%;
+  height: 70%;
+}
+
+#PicMe{
+  border: 5px solid seagreen;
+  top:8%;
+  left:69%;
+  width: 30%;
+  height:40%;
+  position: absolute;
+}
+
+#funFact{
+  border: 5px solid rosybrown;
+  top:0%;
+  left:69%;
+  width: 30%;
+  height:12.7%;
+  position: absolute;
+}
+
+#storyBoard{
+  border: 5px solid sienna;
+}
+#figma{
+  border: 5px solid black;
+}
+
+
+
+
+/* CSS HEX */
+/*--raisin-black: #1a181bff;
+--english-violet: #564d65ff;
+--dark-cyan: #3e8989ff;
+--emerald: #2cda9dff;
+--erin: #05f140ff;*/
+
+/* CSS HSL */
+/*--raisin-black: hsla(280, 6%, 10%, 1);
+--english-violet: hsla(263, 13%, 35%, 1);
+--dark-cyan: hsla(180, 38%, 39%, 1);
+--emerald: hsla(159, 70%, 51%, 1);
+--erin: hsla(135, 96%, 48%, 1);*/
+

@@ -1,0 +1,129 @@
+html{
+  width: 100%;
+  height: 50%;
+}
+body{
+  background-color: #493a32;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #34441d;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #bea07e;
+  text-align: center;
+  padding: 20px 23px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f9ffeb;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #3b452b;
+  color: #ffffff;
+}
+/* Add a style to header */
+header {
+  background-color: #798e71;
+  padding: 30px;
+  margin:20px;
+  width:290px;
+  height:300px;
+  box-shadow: 0px 0px 10px #cfdabe;
+}
+
+/* two columns/boxes that floats next to each other */
+nav {
+  float:left;
+  height: 350px;
+  width:600px;
+  background: #a59073;
+  box-shadow: 0px 0px 10px #cbbdae;
+  margin: 3px;
+  margin-left:660px;
+  margin-top:-370px;
+}
+#yo{
+  margin-left: 20px;
+  margin-top:-18px;
+  border-radius:170px;
+  border-style: dashed;
+  border-color: #f9ffeb;
+  box-shadow: 5px 5px 10px #2f381a;
+
+}
+#name{
+  margin-top: 5px;
+  font-family:Garamond;
+  margin-left:20px;
+}
+
+article {
+  float: left;
+  margin-top:-1310px;
+  margin-left:560px;
+  width: 60%;
+  height: 340px;
+  background-color: #4f5a4e;
+  box-shadow: 0px 0px 20px #28390f;
+}
+#tittleMe{
+  font-family:Garamond;
+  font-style:oblique;
+  font-size:30px;
+}
+p{
+  font-family:Georgia;
+  font-display:inline;
+  font-style:italic;
+  color: #f9ffeb;
+  padding:20px;
+  font-size:20px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the h4 */
+
+#imagesCollab{
+  margin-top: 5px;
+  font-family:Arial, sans-serif;
+  margin-left:50px;
+  margin-top:-0px;
+  }
+}
+
+#FigmaLink{
+  margin-top:10px;
+}
+article{
+  margsin:20px;
+  hseight:100%;
+  }
+footer{
+  background-color:#543a1c;
+  height:auto;
+  width:auto;
+  min-width:1920px;
+  min-height:50px;
+  }
+div.all{
+  width:auto;
+  height:auto;
+  min-width:1920px;
+  min-height:1080px;
