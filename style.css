@@ -3,6 +3,12 @@ html {
   width: 100%;
 }
 
+.slides{
+  posistion:absolute;
+  left:2px;
+  
+}
+
 body{
   background-color: #716456;    
 }
